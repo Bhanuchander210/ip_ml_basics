@@ -90,6 +90,7 @@ for name, model in models:
     print 'Training Accuracy Score : ', accuracy_score(labels, pred)
     filename = name + '_model.sav'
     joblib.dump(model, filename)
+    print '[INFO] Trained module stored as the file : '+ filename
 
     # This part has been changed as python Test. This code only do train.
     # print("[INFO] evaluating...")
