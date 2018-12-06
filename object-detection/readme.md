@@ -70,8 +70,6 @@ Why RCNN failed / need optimization ?
 - **Anchor Boxes** (k-boxes) known as common boxes for an object are passed to the next process Fast-RCNN bounding
 box technique.
 
-
-
 ###### MASK - R-CNN
 ---
 
@@ -80,6 +78,13 @@ box technique.
 - By adding another one branch to the Faster-RCNN with a **binaryMask Matrix**.
 - RoiAlign - Realigning RoIPool to be More Accurate means (Due to the process some misalignment will occur while detecting objects.)
 - After generating these **Mask layer** we can accurately find the borders of the image.
+
+**Segmentation :**
+
+- Semantic Segmentation
+    - It can't find the boundaries of the same class objects , means overlapped objects.
+- Instance Segmentation
+    - It predicts the boundaries as well using mask matrix.
 
 
 #### References:
