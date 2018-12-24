@@ -17,5 +17,22 @@ Reference :
 ## Image Classification
 ---
 
-In Image classification, we do classification on a image input. That means for an
-image input we got the classification output.
+In Image classification, we do classification on a image input, that means for an
+image input we got one classification output from a set of classes.
+
+
+
+### Folder Structure:
+---
+
+```
+- data
+    - car-logo
+        - test
+            - car.png
+        - train
+            - alfa_romeo
+            - audi
+            - bmw
+            -...
+```        
