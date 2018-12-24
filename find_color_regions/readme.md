@@ -11,5 +11,5 @@ Libs Used :
 ### Results :
 ---
 
-![Regions]('region_count.gif')
-![Network]('network_cv.gif')
+![Regions](region_count.gif)
+![Network](network_cv.gif)
