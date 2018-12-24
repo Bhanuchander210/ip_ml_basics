@@ -14,9 +14,9 @@ Libs Used :
 ###### Counting Regions or Objects :
 ---
 
-![Regions](region_count.gif)
+<!-- ![Regions](region_count.gif) -->
 
 ###### Counting Networks :
 ---
 
-![Network](network_cv.gif)
+<!-- ![Network](network_cv.gif) -->
